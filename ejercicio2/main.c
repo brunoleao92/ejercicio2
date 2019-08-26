@@ -17,7 +17,7 @@ int main()
     int minNumero = 0;
     int maxNumero = 0;
     int flag=0;
-    float promPositivos;
+    float promPositivos=0;
 
 
     do{
@@ -81,6 +81,7 @@ int main()
     printf("La cantidad de numeros pares es: %d \n", contPares);
     printf("La cantidad de numeros impares es: %d \n", contImpares);
     printf("La cantidad de ceros es: %d\n ", contCeros);
+    printf("La suma de todos los negativos es: %d\n", acumNegativos);
     printf("El promdedio de los postivos es: %.2f \n", promPositivos);
     printf("El numero minimo y la letra del minimo son:%d %c \n", minNumero, minLetra);
     printf("El numero maximo y la letra del maximo son:%d %c \n",maxNumero,maxLetra);
